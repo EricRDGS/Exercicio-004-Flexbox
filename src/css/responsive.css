@@ -1,0 +1,20 @@
+@media(max-width: 800px){
+    .flexbox{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .secao{
+        margin-bottom: 2px;
+    }
+
+    .secao.rome{
+       margin-top: 45px;
+       margin-left: 0;
+    }
+
+    .secao.starry-night{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+}
+
+.flexbox{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 335px;
+    height: 430px;
+    color: #FFF;
+    text-indent: 18px;
+    position: relative;
+}
+.secao .autor{
+    position: absolute;
+}
+
+.secao h2{
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.secao h3{
+    font-family: 'Public Sans';
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 43px;
+}
+
+.secao.rome{
+    margin-left: 10px;
+}
+
+.secao.starry-night{
+    margin-right: 10px;
+}
